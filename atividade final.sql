@@ -52,7 +52,7 @@ CREATE TABLE relatorio (
     projeto_id INT,                  -- Chave estrangeira para projeto
     FOREIGN KEY (projeto_id) REFERENCES projeto(projeto_id) -- Referência à tabela projeto
 );
-
+--
 -- Inserção de Dados na Tabela de Clientes
 INSERT INTO cliente (cliente_id, nome, setor, localizacao, necessidade)
 VALUES 
